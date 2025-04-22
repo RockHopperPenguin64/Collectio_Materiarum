@@ -20,6 +20,14 @@ body {
     margin-right: 1rem;
 }
 
+.logo-title {
+    font-size: 2em;
+}
+
+.web-title {
+    font-size: 1.6em;
+}
+
 /* メニューセクション */
  .header {
     display: grid;
@@ -53,6 +61,7 @@ section {
     margin: 0;
 }
 
+/* フッタースタイル */
 footer a {
     text-decoration: none;
     color: #ffffff;

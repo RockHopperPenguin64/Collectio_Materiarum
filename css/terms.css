@@ -1,0 +1,64 @@
+/* 利用規約ページの全体スタイル */
+.terms-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 見出し（h2） */
+h2 {
+    font-size: 2rem;
+    color: #354b60;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Klee One", cursive;
+}
+
+/* セクションのタイトル（h3） */
+.terms-main {
+    font-size: 1.5rem;
+    color: #5a4632;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #b0b0b0;
+    padding-bottom: 5px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/* 利用規約の本文 */
+.terms-section {
+    font-size: 1rem;
+    color: #333333;
+    line-height: 1.8;
+    text-align: justify;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/* リストのスタイル */
+.terms-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* リンクのスタイル */
+.terms-section a {
+    color: #e1a725;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.terms-section a:hover {
+    text-decoration: underline;
+}
+
+/* 最終更新日 */
+.terms-update {
+    text-align: right;
+    font-style: italic;
+    color: #777777;
+    margin-top: 20px;
+}

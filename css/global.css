@@ -1,0 +1,66 @@
+/* グローバルスタイル */
+body {
+    background-color: #f0f0f0;
+    margin: 0; /* ページ全体の余白を削除 */
+    padding: 0;
+}
+
+/* ロゴセクション */
+.logo {
+    display: flex;
+    background-color: #e6e6e6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-image {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+/* メニューセクション */
+ .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 均等に3列を設定 */
+    gap: 10px; /* ボタン間のスペースを設定 */
+    width: 100%; /* コンテナ全体を画面幅に広げる */
+}
+
+.btn {
+    display: flex; /* フレックスボックスで中央揃え */
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    background-color: #4d4d4d;
+    color: white; /* ボタンの文字色 */
+    text-decoration: none; /* 下線を除去 */
+    font-size: 1.2rem; /* 文字サイズ */
+    border: 2px solid gray; /* 枠線を追加 */
+    height: 3rem; /* ボタンの高さ */
+    font-family: "Klee One",cursive;
+    font-weight: 500;
+}
+c.btn:hover {
+    background-color: #333333; /* ボタンを暗く */
+    color: #ffffff; /* 文字を明るく */
+}
+
+section {
+    display: flex; /* Flexboxを適用 */
+    flex-direction: column; /* 要素を縦並びにする */
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #3a3a3a;
+    color: #d0d0d0;
+    text-align: center;
+    padding: 0.1em;
+}

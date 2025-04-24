@@ -1,0 +1,87 @@
+.parent {
+    display: flex; /* フレックスボックスを有効化 */
+    justify-content: flex-end; /* 水平方向を右揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    width: 90%; /* 親要素の幅 */
+    height: 7em; /* 親要素の高さ */
+    margin: 2em; /* 外側の余白 */
+    border-radius: 1em; /* 親要素の角を丸く */
+    background-color: #6B8E23; /* 背景色 */
+    position: relative; /* 必要に応じて基準位置を指定 */
+}
+
+/* .parent .icon {
+    float: left;
+} */
+
+.parent a {
+    width: auto; /* リンクの幅を自動調整 */
+    height: auto; /* リンクの高さを自動調整 */
+    text-decoration: none; /* テキストの装飾を削除 */
+    color: white; /* テキスト色 */
+    font-size: 2em; /* テキストサイズを調整 */
+    text-align: right; /* テキストの右揃え */
+    margin-right: 1em;
+    font-family: "Klee One";
+}
+
+
+.parent:hover {
+    background-color: #556B2F; /* ホバー時に背景色を変更 */
+}
+
+
+
+
+/* 各ボタンのスタイルはそのまま使用 */
+.image-parent {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+.image-parent:hover {
+    background-color: #0056b3;
+}
+
+.text-parent {
+    background-color: #6B8E23;
+    color: #FFFFF0;
+}
+
+.text-parent:hover {
+    background-color: #556b2f;
+}
+
+.video-parent {
+    background-color: #ff7f50;
+    color: #ffffff;
+}
+
+.video-parent:hover {
+    background-color: #ff4500;
+}
+
+.brog-parent {
+    background-color: #800020;
+    color: #ffd700;
+}
+
+.brog-parent:hover {
+    background-color: #660000;
+}
+
+.icon {
+    width: 5em;
+    height: 5em;
+    float: left;
+}
+
+svg {
+    display: block; /* 要素をブロックレベルに設定 */
+    margin-left: 0; /* 左寄せ */
+    margin-right: 2em;
+}
+
+.parent {
+    justify-content: center; /* 子要素を左揃え */
+}
